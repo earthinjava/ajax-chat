@@ -8,7 +8,13 @@
   
 <!-- 过滤器配置 -->	
 <!-- 错误页面配置 -->
-
-
+<servlet>
+    <servlet-name>receive</servlet-name>
+    <servlet-class>com.duan.servlet.ReceiveServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>receive</servlet-name>
+    <url-pattern>/receive</url-pattern>
+  </servlet-mapping>
  
 </web-app>
